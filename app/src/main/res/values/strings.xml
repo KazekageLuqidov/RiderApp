@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Rider</string>
+    <string name="register_main">Register/Login</string>
+    <string name="title_activity_rider">Orders</string>
+</resources>

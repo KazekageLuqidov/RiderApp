@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "256565949235",
+    "firebase_url": "https://ri-der.firebaseio.com",
+    "project_id": "ri-der",
+    "storage_bucket": "ri-der.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256565949235:android:fb86d9a5a225d1bd",
+        "android_client_info": {
+          "package_name": "ng.com.bitwebdev.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256565949235-qd5v5tl3bm0ao2ehn8vpunj2grbpgo6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ng.com.bitwebdev.rider",
+            "certificate_hash": "bb7d31c09291acd642538ecaf0183f27a2b1895f"
+          }
+        },
+        {
+          "client_id": "256565949235-ccraa1d8p5sd57sukq4gcunssc5gkrgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbBObFLPTEdVwgIqul4U9wtMB3KxsYb6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256565949235-ccraa1d8p5sd57sukq4gcunssc5gkrgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,124 @@
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="ng.com.bitwebdev.rider.RiderActivity"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:id="@+id/logout"
+                android:src ="@drawable/logout_btn"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50sp"
+                android:id="@+id/history"
+                android:src ="@drawable/places_ic_search"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:layout_gravity="end"
+                android:id="@+id/settings"
+                android:src ="@drawable/settings_icon"/>
+
+        </LinearLayout>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:text="available"
+            android:id="@+id/availSwitch"
+            android:layout_margin="20sp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/customerInfo"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+
+        
+        <ImageView
+            android:layout_width="100sp"
+            android:id="@+id/customerProfileImage"
+            android:padding="20sp"
+            android:src="@mipmap/profile_image"
+            android:layout_height="100sp" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="40sp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/customerName"
+                android:paddingBottom="10sp"
+                android:paddingTop="20sp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/customerPhone"
+                android:paddingBottom="10sp"
+                android:paddingTop="20sp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/customerDestination"
+                android:paddingBottom="10sp"
+                android:text="Destination.."
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Picked Customer"
+            android:id="@+id/rideStatus"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
+

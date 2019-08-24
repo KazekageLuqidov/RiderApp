@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20sp"
+    android:layout_height="match_parent"
+    tools:context="ng.com.bitwebdev.rider.DriverSettings">
+
+    <ImageView
+    android:layout_width="100sp"
+    android:src="@mipmap/profile_image"
+    android:id="@+id/profileImage"
+    android:layout_marginBottom="20sp"
+    android:layout_height="100sp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Name"
+        android:id="@+id/name"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Cell"
+        android:inputType="phone"
+        android:id="@+id/Phone"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Ride"
+        android:id="@+id/car"
+        android:layout_height="wrap_content" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/radioGroup"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Atom"
+            android:id="@+id/Atom"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Optimus"
+            android:id="@+id/Optimus"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Confirm"
+        android:id="@+id/Confirmbtn"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Back"
+        android:id="@+id/Backbtn"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
